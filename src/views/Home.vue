@@ -7,7 +7,7 @@
 
   <afroshot> </afroshot>
   <div>
-    <calendar></calendar>
+    <!-- <calendar></calendar> -->
   </div>
   </v-app>
 </template>
@@ -18,12 +18,12 @@
 import hero from '@/components/Home/Hero'
 import herobar from '@/components/Home/herobar'
 import afroshot from '@/components/Home/afroshot'
-import calendar from '@/components/Home/calendar'
+// import calendar from '@/components/Home/calendar'
 
 export default {
   name: 'home',
   components: {
-    hero, herobar, afroshot, calendar
+    hero, herobar, afroshot,
   }
 }
 </script>
