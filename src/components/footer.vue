@@ -1,5 +1,6 @@
 <template>
-       <v-app>
+<div>
+      
         <footer class=" col-12 app-footer">
             <div class="col-11 mx-auto row mx-0 mt-5">
                 <div class="col-12 col-md">
@@ -47,7 +48,8 @@
                 <span style="color: white"> &copy; 2019 Peexo Nigeria Limited </span>
 
             </div> 
-            </v-app>    
+</div>
+             
 </template>
 
 <style scoped>
@@ -60,7 +62,7 @@
     min-height: 5vh;
 }
 .app-footer{
-    min-height: 40vh;
+    /* min-height: 40vh; */
     background: #fff;
 }
 .list-header{
@@ -84,35 +86,7 @@
     width: 3vh;
     cursor: pointer;
 }
-.footer-download{
-    height: 10vh;
-}
-.footer-download p{
-    color: white;
-    font-size: 12px;
-}
-.app-cons {
-    height: 5vh;
-}
-.app-cons img{
-    height: 100%;
-    width: 100%;
-}
 
-.login{
-    background: #fff;
-    height: 250px;
-    margin-top: 80px;
-    margin-bottom: 60px;
-    border-radius: 5px;
-    display: flex;
-    flex-flow: column nowrap;
-}
 
-.login h3{
-    font-weight: bold;
-    padding: 20px 0px;
-    text-align: center;
-}
 
 </style>
