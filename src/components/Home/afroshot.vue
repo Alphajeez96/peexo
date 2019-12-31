@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .btnc{
     margin-left: 250px
 }

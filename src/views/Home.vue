@@ -1,29 +1,33 @@
 <template>
 <v-app>
   <div class="home">
-   <hero></hero>
-   
+   <hero></hero> 
+  </div>
+  <div>
+  <afroshot> </afroshot>
   </div>
 
-  <afroshot> </afroshot>
   <div>
-    <!-- <calendar></calendar> -->
+    <calendar></calendar>
   </div>
+  
+    
+    
+  
   </v-app>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+
 import hero from '@/components/Home/Hero'
-import herobar from '@/components/Home/herobar'
 import afroshot from '@/components/Home/afroshot'
-// import calendar from '@/components/Home/calendar'
+import calendar from '@/components/Home/calendar'
 
 export default {
   name: 'home',
   components: {
-    hero, herobar, afroshot,
+    hero, afroshot, calendar
   }
 }
 </script>

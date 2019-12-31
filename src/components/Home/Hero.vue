@@ -13,7 +13,7 @@
              <a><li class="mx-5 y py-5">Details</li></a>
             <a><li class="mx-5 mt-2">portfolio</li></a>
               <!-- <button type="button" class=" t btn btn-light">Availability</button> -->
-            <a href=""> <li class=" t mx-5 pt-2 active">Availability</li> </a>
+            <a> <li class="mx-5">Availability</li> </a>
              <a><li class="mx-5 mt-2">Pricing Packages</li></a>
              <a><li class="mx-5 mt-2">Reviews</li> </a>    
          </ul>
@@ -29,14 +29,12 @@
 <style>
 
 .heroli{
-  margin-left: 250px;
+  margin-left: 550px;
   margin-top: 15px;
   display: flex;
   flex-direction: row
 }
-a:active{
-  border: 4px solid black;
-}
+
 #parent{
   position:relative;
 }
@@ -71,15 +69,16 @@ a:active{
     background: #FFB503;
     height: 60px;   
     position:absolute; 
-    top:600px;
-    bottom:px
+    top: 618px;
+    bottom:px;
+    
 }
 .herobar li{
     color:white;
     font:14px;
     list-style: none;
     display:inline;
-    cursor:pointer;
+    cursor:not-allowed;
    
 }
 

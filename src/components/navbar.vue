@@ -51,7 +51,7 @@
 
 </template>
 
-<style scoped>
+<style>
    
 .app-logo{
     margin-left: 2vw;

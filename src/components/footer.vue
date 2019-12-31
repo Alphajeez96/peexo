@@ -6,39 +6,39 @@
                 <div class="col-12 col-md">
                     <ul class="list-group footer-list">
                         <li class="list-group-item pb-2 list-header">Quick Links</li>
-                        <li class="list-group-item py-1 footer-links ">Find a Photographer</li>
-                        <li class="list-group-item py-1 footer-links ">Find my Photos</li>
-                        <li class="list-group-item py-1 footer-links ">Peexomemories</li>
-                            <li class="list-group-item py-1 footer-links ">Become a photographer</li>
+                        <li class="list-group-item py-1 foot-links ">Find a Photographer</li>
+                        <li class="list-group-item py-1 foot-links ">Find my Photos</li>
+                        <li class="list-group-item py-1 foot-links ">Peexomemories</li>
+                            <li class="list-group-item py-1 foot-links ">Become a photographer</li>
                         
                     </ul>
                 </div>
                 <div class="col-12 col-md">
                     <ul class="list-group footer-list">
                         <li class="list-group-item pb-2 list-header">Company</li>
-                        <li class="list-group-item py-1 footer-links ">FAQs</li>
-                        <li class="list-group-item py-1 footer-links ">Pricing</li>
-                        <li class="list-group-item py-1 footer-links ">Careers</li>
-                        <li class="list-group-item py-1 footer-links ">Help and support</li>
-                        <li class="list-group-item py-1 footer-links ">Terms of Service</li>
-                        <li class="list-group-item py-1 footer-links ">Privacy policy</li>
+                        <li class="list-group-item py-1 foot-links ">FAQs</li>
+                        <li class="list-group-item py-1 foot-links ">Pricing</li>
+                        <li class="list-group-item py-1 foot-links ">Careers</li>
+                        <li class="list-group-item py-1 foot-links ">Help and support</li>
+                        <li class="list-group-item py-1 foot-links ">Terms of Service</li>
+                        <li class="list-group-item py-1 foot-links ">Privacy policy</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md">
                     <ul class="list-group footer-list">
                         <li class="list-group-item pb-2 list-header">Connect With Us</li>
-                        <li class="list-group-item py-1 footer-links">5A, Awudu Egheda, 
+                        <li class="list-group-item py-1 foot-links">5A, Awudu Egheda, 
                             <br>
                             Lekki Lagos</li>
-                        <li class="list-group-item py-1 footer-links">+234 8003229932</li>
-                        <li class="list-group-item py-1 footer-links">contact@gateguard.org</li>
+                        <li class="list-group-item py-1 foot-links">+234 8003229932</li>
+                        <li class="list-group-item py-1 foot-links">contact@gateguard.org</li>
                     </ul>
                     
                    <div class="col-12 col-md-8 mt-3 social-links">
-                       <img class="mx-2" src="../../public/whatsappre.png" alt="">
-                        <img class="mx-2" src="../../public/fbre.png" alt="">
-                          <img class="mx-2" src="../../public/twitter.jpg" alt="">
-                        <img class="mx-2" src="../../public/instagram.jpg" alt="">
+                       <!-- <img class="" src="../../public/whatsappre.png" alt=""> -->
+                        <!-- <img class="" src="../../public/fbre.png" alt=""> -->
+                          <img class="" src="../../public/twitter.jpg" alt="">
+                        <img class="" src="../../public/instagram.jpg" alt="">
         
                    </div>
                 </div>   
@@ -52,7 +52,7 @@
              
 </template>
 
-<style scoped>
+<style >
 .sp{
     width:500px;
 }
@@ -72,7 +72,7 @@
     font-size: 16px;
     font-weight: bold;
 }
-.footer-links {
+.foot-links {
     background: inherit;
     color: grey;
     border: none;
@@ -85,6 +85,9 @@
     height: 4vh;
     width: 3vh;
     cursor: pointer;
+    /* margin:auto; */
+    margin-left: 40px;
+
 }
 
 

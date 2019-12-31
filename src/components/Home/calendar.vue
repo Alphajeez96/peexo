@@ -1,6 +1,6 @@
 <template>
 <v-app>
-<div>
+<div class="caldiv">
   <v-sheet height="500">
     <v-calendar
       type="month"
@@ -22,12 +22,12 @@
   }
 </script>
 
-<style scoped>
+<style >
   .cal{
     margin-top:20px;
    
   }
-  div{
+  .caldiv{
     width:500px;
     margin: auto;
 
