@@ -16,7 +16,7 @@
     "bootstrap-vue": "^2.1.0",
     "clndr": "^1.5.1",
     "core-js": "^3.4.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "underscore": "^1.9.1",
     "vue": "^2.6.11",
